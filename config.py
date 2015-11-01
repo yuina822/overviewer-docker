@@ -5,7 +5,7 @@ world_path = os.environ.get('OVERVIEWER_WORLD_PATH')
 if not world_path :
     world_path = "/data/world"
 
-outputdir = os.environ['OVERVIEWER_MAP_PATH']
+outputdir = os.environ.get['OVERVIEWER_MAP_PATH']
 if not outputdir :
     outputdir = "/mcmap"
 
