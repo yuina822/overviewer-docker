@@ -6,7 +6,7 @@ if not world_path :
     world_path = "/data/world"
 
 outputdir = os.environ['OVERVIEWER_MAP_PATH']
-if not outputdir
+if not outputdir :
     outputdir = "/mcmap"
 
 renders["day"] = {
