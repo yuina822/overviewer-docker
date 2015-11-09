@@ -21,6 +21,7 @@ if [ -z $OVERVIEWER_WORLD_NAME ]; then
 fi
 
 wget $OVERVIEWER_TEXTURE_URL -O /texture
+mkdir -p $OVERVIEWER_MAP_PATH
 
 while true; do
 	/usr/src/app/overviewer/overviewer.py --config="/config.py" --genpoi
